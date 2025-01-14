@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+ynUhhRZdC4=",
+  "dgSpecHash": "RsepYI4Xf48=",
   "success": true,
   "projectFilePath": "/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/Catalog.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "/home/adem/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
     "/home/adem/.nuget/packages/mongodb.bson/3.1.0/mongodb.bson.3.1.0.nupkg.sha512",
     "/home/adem/.nuget/packages/mongodb.driver/3.1.0/mongodb.driver.3.1.0.nupkg.sha512",
+    "/home/adem/.nuget/packages/scalar.aspnetcore/1.2.76/scalar.aspnetcore.1.2.76.nupkg.sha512",
     "/home/adem/.nuget/packages/sharpcompress/0.30.1/sharpcompress.0.30.1.nupkg.sha512",
     "/home/adem/.nuget/packages/snappier/1.0.0/snappier.1.0.0.nupkg.sha512",
     "/home/adem/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",

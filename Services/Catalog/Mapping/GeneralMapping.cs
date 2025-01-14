@@ -16,8 +16,8 @@ public class GeneralMapping : Profile
 
         CreateMap<ProductDetail,GetByIdProductDetailDto>().ReverseMap(); 
         CreateMap<ProductDetail,CreateProductDetailDto>().ReverseMap(); 
-        CreateMap<ProductDetail,UpdateProductDto>().ReverseMap(); 
-        CreateMap<ProductDetail,ResultProductDto>().ReverseMap(); 
+        CreateMap<ProductDetail,UpdateProductDetailDto>().ReverseMap(); 
+        CreateMap<ProductDetail,ResultProductDetailDto>().ReverseMap(); 
 
         CreateMap<ProductImage,GetByIdProductImageDto>().ReverseMap(); 
         CreateMap<ProductImage,CreateProductImageDto>().ReverseMap(); 

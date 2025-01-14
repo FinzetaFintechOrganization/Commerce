@@ -24,18 +24,21 @@ public class ProductService : IProductService
         await _products.DeleteOneAsync(x => x.Id == id);
     }
 
-    public Task<List<ResultProductDto>> GetAllProductAsync()
+    public async Task<List<ResultProductDto>> GetAllProductAsync()
     {
-        throw new NotImplementedException();
+        var values = await _products.Find(x => true).ToListAsync();
+        return _mapper.Map<List<ResultProductDto>>(values);
     }
 
-    public Task<GetByIdProductDto> GetByIdProductAsync(string id)
+    public async Task<GetByIdProductDto> GetByIdProductAsync(string id)
     {
-        
+        var value = await _products.Find(x => x.Id == id).FirstOrDefaultAsync();
+        return _mapper.Map<GetByIdProductDto>(value);
     }
 
-    public Task UpdateProductAsync(UpdateProductDto updateProductto)
+    public async Task UpdateProductAsync(UpdateProductDto updateProductDto)
     {
-        throw new NotImplementedException();
+        var value = _mapper.Map<Product>(updateProductDto);
+        await _products.FindOneAndReplaceAsync(x => x.Id == updateProductDto.Id, value);
     }
 }

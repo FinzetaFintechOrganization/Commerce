@@ -32,3 +32,11 @@
 /home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/obj/Debug/net9.0/Catalog.pdb
 /home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/obj/Debug/net9.0/Catalog.genruntimeconfig.cache
 /home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/obj/Debug/net9.0/ref/Catalog.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/bin/Debug/net9.0/AutoMapper.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/bin/Debug/net9.0/DnsClient.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/bin/Debug/net9.0/MongoDB.Bson.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/bin/Debug/net9.0/MongoDB.Driver.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/bin/Debug/net9.0/Scalar.AspNetCore.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/bin/Debug/net9.0/SharpCompress.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/bin/Debug/net9.0/Snappier.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/bin/Debug/net9.0/ZstdSharp.dll
