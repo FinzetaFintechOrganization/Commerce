@@ -5,6 +5,12 @@ using Microsoft.EntityFrameworkCore;
 public class Repository<T> : IRepository<T> where T : class
 {
     private readonly AppDbContext _context;
+
+    public Repository(AppDbContext context)
+    {
+        _context = context;
+    }
+
     public async Task CreateAsync(T entity)
     {
         _context.Set<T>().Add(entity);
@@ -29,7 +35,7 @@ public class Repository<T> : IRepository<T> where T : class
 
     public async Task<T> GetByIdAsync(Guid id)
     {
-        return await _context.Set<T>().FindAsync();
+        return await _context.Set<T>().FindAsync(id);
     }
 
     public async Task UpdateAsync(T entity)

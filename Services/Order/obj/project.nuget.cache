@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ReMV37WZFiY=",
+  "dgSpecHash": "UD8gAIixKFQ=",
   "success": true,
   "projectFilePath": "/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Order/Order.csproj",
   "expectedPackageFiles": [
     "/home/adem/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/home/adem/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
+    "/home/adem/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/adem/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
     "/home/adem/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "/home/adem/.nuget/packages/microsoft.build.framework/17.8.3/microsoft.build.framework.17.8.3.nupkg.sha512",

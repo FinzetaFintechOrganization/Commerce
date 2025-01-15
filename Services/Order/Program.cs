@@ -4,6 +4,22 @@ using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+
+builder.Services.AddAppService(builder.Configuration);
+
+builder.Services.AddScoped<GetAddressByIdQueryHandler>();
+builder.Services.AddScoped<GetAddressQueryHandler>();
+builder.Services.AddScoped<CreateAddressCommandHandler>();
+builder.Services.AddScoped<UpdateAddressCommandHandler>();
+builder.Services.AddScoped<RemoveAddressCommandHandler>();
+
+builder.Services.AddScoped<GetOrderDetailByIdQueryHandler>();
+builder.Services.AddScoped<GetOrderDetailQueryHandler>();
+builder.Services.AddScoped<CreateOrderDetailCommandHandler>();
+builder.Services.AddScoped<UpdateOrderDetailCommandHandler>();
+builder.Services.AddScoped<RemoveOrderDetailCommandHandler>();
+
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
