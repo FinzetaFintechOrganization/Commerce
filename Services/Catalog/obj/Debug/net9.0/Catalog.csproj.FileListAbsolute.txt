@@ -40,3 +40,11 @@
 /home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/bin/Debug/net9.0/SharpCompress.dll
 /home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/bin/Debug/net9.0/Snappier.dll
 /home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/bin/Debug/net9.0/ZstdSharp.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Catalog/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll

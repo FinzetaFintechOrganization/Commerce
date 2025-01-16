@@ -1,8 +1,15 @@
 
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt => {
+        opt.Authority = builder.Configuration["IdentityServerUrl"];
+        opt.RequireHttpsMetadata = false;
+        opt.Audience = "ResourceOrder";
+    });
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
@@ -34,6 +41,10 @@ builder.Services.AddOpenApi();
 var app = builder.Build();
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
+
+app.UseAuthorization();
 
 app.MapOpenApi();
 

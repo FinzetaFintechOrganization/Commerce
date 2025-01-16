@@ -122,3 +122,11 @@
 /home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Discount/obj/Debug/net9.0/Discount.pdb
 /home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Discount/obj/Debug/net9.0/Discount.genruntimeconfig.cache
 /home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Discount/obj/Debug/net9.0/ref/Discount.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Discount/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Discount/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Discount/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Discount/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Discount/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Discount/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Discount/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Discount/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll

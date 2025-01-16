@@ -133,3 +133,11 @@
 /home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Order/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Order/bin/Debug/net9.0/MediatR.dll
 /home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Order/bin/Debug/net9.0/MediatR.Contracts.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Order/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Order/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Order/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Order/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Order/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Order/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Order/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Order/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
