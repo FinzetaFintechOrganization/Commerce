@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "C7ic64QBFxY=",
+  "dgSpecHash": "Mf/IBDsY+xw=",
   "success": true,
   "projectFilePath": "/home/adem/Masaüstü/FinzetaFintechOrganization/Commerce/Services/Basket/Basket.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "/home/adem/.nuget/packages/microsoft.identitymodel.tokens/8.0.1/microsoft.identitymodel.tokens.8.0.1.nupkg.sha512",
     "/home/adem/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
     "/home/adem/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "/home/adem/.nuget/packages/scalar.aspnetcore/2.0.1/scalar.aspnetcore.2.0.1.nupkg.sha512",
     "/home/adem/.nuget/packages/stackexchange.redis/2.8.24/stackexchange.redis.2.8.24.nupkg.sha512",
     "/home/adem/.nuget/packages/system.identitymodel.tokens.jwt/8.0.1/system.identitymodel.tokens.jwt.8.0.1.nupkg.sha512",
     "/home/adem/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512"

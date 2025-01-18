@@ -179,6 +179,22 @@
           }
         }
       },
+      "Scalar.AspNetCore/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Scalar.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Scalar.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "StackExchange.Redis/2.8.24": {
         "type": "package",
         "dependencies": {
@@ -489,6 +505,23 @@
         "pipelines.sockets.unofficial.nuspec"
       ]
     },
+    "Scalar.AspNetCore/2.0.1": {
+      "sha512": "1N/l0ICglYaqHsIctF29HRvsmvlvoFaW3A9tl4Jhwjxdb1Ojwnn5q9sntSSTh8hLaOodr/1au8BIk/aLTHRmzw==",
+      "type": "package",
+      "path": "scalar.aspnetcore/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net8.0/Scalar.AspNetCore.dll",
+        "lib/net8.0/Scalar.AspNetCore.xml",
+        "lib/net9.0/Scalar.AspNetCore.dll",
+        "lib/net9.0/Scalar.AspNetCore.xml",
+        "scalar.aspnetcore.2.0.1.nupkg.sha512",
+        "scalar.aspnetcore.nuspec"
+      ]
+    },
     "StackExchange.Redis/2.8.24": {
       "sha512": "GWllmsFAtLyhm4C47cOCipGxyEi1NQWTFUHXnJ8hiHOsK/bH3T5eLkWPVW+LRL6jDiB3g3izW3YEHgLuPoJSyA==",
       "type": "package",
@@ -566,6 +599,7 @@
     "net9.0": [
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 9.0.1",
       "Microsoft.AspNetCore.OpenApi >= 9.0.0",
+      "Scalar.AspNetCore >= 2.0.1",
       "StackExchange.Redis >= 2.8.24"
     ]
   },
@@ -619,6 +653,10 @@
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[9.0.0, )"
+          },
+          "Scalar.AspNetCore": {
+            "target": "Package",
+            "version": "[2.0.1, )"
           },
           "StackExchange.Redis": {
             "target": "Package",
