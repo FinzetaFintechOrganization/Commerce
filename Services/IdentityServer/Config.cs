@@ -24,6 +24,10 @@ namespace IdentityServer
             {
                 Scopes = { "OrderFullPermission" },
             },
+            new ApiResource("ResourceCargo")
+            {
+                Scopes = { "CargoFullPermission" },
+            },
             new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
         };
 
@@ -41,6 +45,7 @@ namespace IdentityServer
             new ApiScope("DiscountFullPermission","Full authority for discount operations"),
             new ApiScope("OrderFullPermission","Full authority for order operations"),
             new ApiScope("CatalogReadPermission","Full authority for order operations"),
+            new ApiScope("CargoFullPermission","Full authority for cargo operations"),
             new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
 
         };
@@ -75,6 +80,7 @@ namespace IdentityServer
                     "DiscountFullPermission",
                     "OrderFullPermission",
                     "CatalogFullPermission",
+                    "CargoFullPermission",
                     IdentityServerConstants.LocalApi.ScopeName,
                     IdentityServerConstants.StandardScopes.Email,
                     IdentityServerConstants.StandardScopes.OpenId,
